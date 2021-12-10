@@ -44,17 +44,15 @@ export const NavContainer = styled.nav`
       justify-content: flex-start;
       cursor: pointer;
       align-items: center;
-      max-width: 10.5rem;
+      max-width: 9rem;
       min-width: 8rem;
 
       @media (max-width: 768px) {
-        min-width: 7rem;
-        max-width: 9.5rem;
-        margin-left: -55px;
+        margin-left: -1rem;
       }
 
-      svg {
-        background-color: #fff;
+      img {
+        width: 100%;
       }
     }
 
